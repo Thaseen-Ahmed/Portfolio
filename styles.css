@@ -962,8 +962,15 @@
         font-size: 1.7rem;
     }
     .contct .info {
-        font-size: 1.3rem;
+        font-size: 1.25rem;
     }
+    .contct .head{
+        font-size: 1rem;
+    }
+    .contct p {
+        font-size: 1.5rem;
+    }
+
 }
 @media(max-width:400px){
     .Skills h1{
@@ -984,11 +991,12 @@
     .contct p {
         font-size: 1.9rem;
     }
-    .contct .info {
-        font-size: 1.1rem;
-    }
+    
     .fa {
         font-size: 1.9rem;
+    }
+    .contct .info {
+        font-size: 1rem;
     }
 }
 @media(max-width:350px){

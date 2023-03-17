@@ -846,8 +846,183 @@
     .Skills .cl2 .boot {
         margin-left: 7%;
     }
+    .seenu-port .port .main-cont .img1 img{
+        width: 95%;
+    }
+    .main-cont .info{
+        padding-left: 4%;
+    }
+    .seenu-port .port .main-cont{
+        height: 80vh;
+    }
+    .main-cont .info{
+        margin-top: 30%;
+        font-size: small;
+    }
+    .main-cont .abt{
+        font-size: 0.9rem;
+    }
+    .main-cont .abt h3 span {
+        font-size: 0.76rem;
+    }
+    .Skills {
+        height: 85vh;
+    }
+    .Skills .cl1 {
+        margin-top: 10%;
+    }
+    .projcts .netf img {
+        width: 75%;
+    }
+    .projcts .netf{
+        margin-left: 25%;
+    }
+    .projcts .amz{
+        margin-left: 25%;
+    }
+    .projcts .amz img{
+        width: 75%;
+    }
+    .projcts .form{
+        margin-left: 25%;
+    }
+    .projcts .form img{
+        width: 75%;
+    }
+    .projcts .cont {
+        width: 50%;
+        margin-left: 28%;
+    }
+    .projcts .cont2 {
+        width: 50%;
+        margin-left: 28%;
+    }
+    .projcts .cont3 {
+        width: 50%;
+        margin-left: 28%;
+    }
+    .projcts .cont .but a{
+        margin-left: 26%;
+    }
+    .projcts .cont2 .but {
+        margin-top: 14%;
+    }
+    .projcts .cont3 .but {
+        margin-top: 21%;
+    }
+    .projcts .cont2 .but a{
+        margin-left: 22%;
+    }
+    .projcts .cont3 .but a{
+        margin-left: 24%;
+    }
+    .social .so{
+        font-size: 1.5rem;
+    }
+}
+@media(max-width:450px){
+    .mc .bg .cont {
+        width: 100%;
+        font-size: 3.9rem;
+    }
+    .seenu-port .port .main-cont .img1 img{
+        height: 17vh;
+    }
+    .main-cont2 .desc h3 {
+        width: 100%;
+        font-size: 2.17rem;
+    }
+    .Skills{
+        height: 75vh;
+    }
+    .Skills .cl1 i {
+        font-size: 140px;
+    }
+    .Skills .cl2 i {
+        font-size: 140px;
+    }
+    .Skills h1 {
+        font-size: 1.7rem;
+    }
+    .Skills .cl1 .html {
+        margin-left: 12%;
+    }
+    .Skills .cl2 .boot {
+        margin-left: 12%;
+        
+    }
+    .projcts .clk {
+        font-size: 1.2rem;
+    }
+    .contct .head h1 {
+        margin-left: 21%;
+    }
+    .contct p {
     
+        font-size: 1.7rem;
+    }
+    .contct .info {
+        font-size: 1.3rem;
+    }
+}
+@media(max-width:400px){
+    .Skills h1{
+        font-size: 1.5rem;
+    }
+    .projcts .cont .but a {
+        margin-left: 20%;
+    }
+    .projcts .cont2 .but a {
+        margin-left: 18%;
+    }
+    .projcts .cont3 .but a {
+        margin-left: 18%;
+    }
+    .main-cont2 .desc h3{
+        font-size: 2rem;
+    }
+    .contct p {
+        font-size: 1.9rem;
+    }
+    .contct .info {
+        font-size: 1.1rem;
+    }
+    .fa {
+        font-size: 1.9rem;
+    }
+}
+@media(max-width:350px){
+    .Skills h1 {
+        font-size: 1.4rem;
+    }
     
-    
-    
+    .Skills .cl1 i{
+        font-size: 120px;
+    }
+
+    .Skills .cl2 i{
+        font-size: 120px;
+    }
+    .Skills {
+        height: 63vh;
+    }
+    .projcts .para {
+        font-size: 1.1rem;
+        margin-left: 5%;
+    }
+    .projcts .clk {
+        font-size: 1rem;
+    }
+    .projcts .cont .but {
+        padding-top: 5%;
+    }
+    .projcts .cont2 .but {
+        padding-top: 8%;
+    }
+    .projcts .cont3 .but {
+        padding-top: 5%;
+    }
+    .projcts .cont2 .but a {
+        font-size: 0.95rem;
+    }
 }

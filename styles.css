@@ -942,6 +942,9 @@
     }
 }
 @media(max-width:450px){
+    .mc .bg{
+        background-image: none;
+    }
     .mc .bg .cont {
         width: 100%;
         font-size: 3.9rem;

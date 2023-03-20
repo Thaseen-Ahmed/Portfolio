@@ -999,7 +999,11 @@
     .contct p {
         font-size: 1.5rem;
     }
-
+    .mc .bg .cont {
+        /* width: 100%;
+        font-size: 3.3rem; */
+        margin-top: 80%;
+    }
 }
 @media(max-width:400px){
     .seenu-port .port .main-cont{

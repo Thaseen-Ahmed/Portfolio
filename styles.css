@@ -773,6 +773,9 @@
     
 }
 @media(max-width:600px){
+    .Skills .cl2 {
+    margin-right: 40%;
+}
     .projcts .para{
         font-size: 1.5rem;
         margin-left: 7%;
@@ -821,7 +824,7 @@
         margin-left: 11%;
     }
     .Skills .cl2 {
-        margin-right: 50%;
+    margin-right: 67%;
     }
     .projcts p{
         font-size: large;
@@ -988,6 +991,9 @@
     .main-cont2 .desc h3{
         font-size: 2rem;
     }
+    .Skills h1 {
+        font-size: 1.35rem;
+    }
     .contct p {
         font-size: 1.9rem;
     }
@@ -1001,7 +1007,7 @@
 }
 @media(max-width:350px){
     .Skills h1 {
-        font-size: 1.4rem;
+        font-size: 1.3rem;
     }
     
     .Skills .cl1 i{

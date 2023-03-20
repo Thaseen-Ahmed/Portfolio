@@ -976,6 +976,12 @@
 
 }
 @media(max-width:400px){
+    .seenu-port .port .main-cont{
+        width: 25%;
+    }
+    .mc .bg{
+        width: 75%;
+    }
     .Skills h1{
         font-size: 1.5rem;
     }
@@ -1006,6 +1012,34 @@
     }
 }
 @media(max-width:350px){
+    .mc .bg .cont {
+    width: 100%;
+    font-size: 3.3rem;
+}
+.main-cont2 .me h1 {
+    font-size: 2rem;
+    padding-top: 2%;
+
+}
+.Skills .head h1 {
+    padding-top: 3%;
+}
+.Skills .cl2 {
+    margin-right: 55%;
+}
+.projcts .cont .but a {
+    margin-left: 13%;
+}
+.projcts .cont2 .but {
+    margin-top: 9%;
+}
+.main-cont2 .desc {
+    margin-top: 20%;
+    margin-left: 4%;
+}
+.main-cont2 .desc h3 {
+    font-size: 1.7rem;
+}
     .Skills h1 {
         font-size: 1.3rem;
     }
@@ -1030,13 +1064,18 @@
     .projcts .cont .but {
         padding-top: 5%;
     }
-    .projcts .cont2 .but {
-        padding-top: 8%;
-    }
+    
     .projcts .cont3 .but {
-        padding-top: 5%;
+        margin-top: 11%;
+    }
+    .projcts .cont3 .but a {
+    margin-left: 11%;
     }
     .projcts .cont2 .but a {
         font-size: 0.95rem;
+        margin-left: 13%;
     }
+.contct p {
+    font-size: 1.7rem;
+}
 }

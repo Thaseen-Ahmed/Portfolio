@@ -6,7 +6,7 @@
 
 .seenu-port .port .mc {
     margin-top: 1.5%;
-    margin-left: 2%;
+    margin-left: 0%;
     /* overflow: auto; */
     display: flex;
 }
@@ -980,9 +980,7 @@
         margin-left: 12%;
         
     }
-    .projcts .clk {
-        font-size: 1.2rem;
-    }
+    
     .contct .head h1 {
         margin-left: 21%;
     }
@@ -1000,9 +998,13 @@
         font-size: 1.5rem;
     }
     .mc .bg .cont {
-        /* width: 100%;
-        font-size: 3.3rem; */
-        margin-top: 80%;
+        margin-top: 40%;
+    }
+    .main-cont2 .me h1 {
+        font-size: 2.3rem;
+    }
+    .projcts .clk {
+        font-size: 1rem;
     }
 }
 @media(max-width:400px){
@@ -1034,7 +1036,7 @@
         margin-left: 18%;
     }
     .main-cont2 .desc h3{
-        font-size: 1.7rem;
+        font-size: 1.5rem;
         padding-bottom: 5%;
 
     }
@@ -1057,14 +1059,29 @@
     .mc .bg h4 {
     font-size: 1.5rem;
     }
+    .mc .bg .cont {
+        margin-top: 80%;
+    }
+    .main-cont2 .me h1 {
+        font-size: 2.1rem;
+    }
+
+    .Skills .head h1 {
+    padding-top: 3%;    
+    }
+    .projcts .pro h1 {
+        font-size: 2.1rem;
+        padding-top: 2%;
+    }
 }
+
 @media(max-width:350px){
     .mc .bg .cont {
     width: 100%;
     font-size: 3.3rem;
 }
 .main-cont2 .me h1 {
-    font-size: 2rem;
+    
     padding-top: 2%;
 
 }
@@ -1124,5 +1141,15 @@
     }
 .contct p {
     font-size: 1.7rem;
+}
+.Skills .cl1 i {
+    font-size: 100px;
+}
+.Skills .cl2 i {
+    font-size: 100px;
+}
+.contct .info{
+    margin-left: 1%;
+    font-size: 0.95rem;
 }
 }

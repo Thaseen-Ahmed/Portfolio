@@ -646,6 +646,7 @@
 @media(max-width:800px){
     .seenu-port .port .mc {
         margin-left: 0.5%;
+        /* padding: 5%; */
     }
     .seenu-port .port .main-cont .img1 img {
     width: 90%;
@@ -837,6 +838,9 @@
     }
 }
 @media(max-width:500px){
+    .mc .bg{
+        font-size: 3.8rem;
+    }
     .Skills .cl1 i {
         font-size: 170px;
     }

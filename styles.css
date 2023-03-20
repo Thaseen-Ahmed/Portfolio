@@ -942,9 +942,7 @@
     }
 }
 @media(max-width:450px){
-    .mc .bg{
-        background-image: none;
-    }
+    
     .mc .bg .cont {
         width: 100%;
         font-size: 3.9rem;
@@ -1000,6 +998,9 @@
 
 }
 @media(max-width:400px){
+    .mc .bg{
+        background-image: none;
+    }
     .seenu-port .port .main-cont{
         width: 25%;
     }

@@ -1002,14 +1002,17 @@
 
 }
 @media(max-width:400px){
-    .mc .bg{
-        background-image: none;
-    }
     .seenu-port .port .main-cont{
         width: 25%;
     }
+    .main-cont2 .desc {
+        margin-left: 2%;
+    }
+    .main-cont2{
+        height: auto;
+    }
     .mc .bg{
-        width: 75%;
+        width: 100%;
     }
     .Skills h1{
         font-size: 1.5rem;
@@ -1027,7 +1030,9 @@
         margin-left: 18%;
     }
     .main-cont2 .desc h3{
-        font-size: 2rem;
+        font-size: 1.7rem;
+        padding-bottom: 5%;
+
     }
     .Skills h1 {
         font-size: 1.35rem;
@@ -1041,6 +1046,12 @@
     }
     .contct .info {
         font-size: 1rem;
+    }
+    .mc .bg p{
+        font-size: 2rem;
+    }
+    .mc .bg h4 {
+    font-size: 1.5rem;
     }
 }
 @media(max-width:350px){

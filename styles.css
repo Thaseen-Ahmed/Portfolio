@@ -874,6 +874,9 @@
     .Skills .cl1 {
         margin-top: 10%;
     }
+    .Skills .cl2 .javascr {
+    margin-left: 40%;
+}
     .projcts .netf img {
         width: 75%;
     }
@@ -944,6 +947,9 @@
     .Skills .cl2 i {
         font-size: 140px;
     }
+    .Skills .cl2 .javascr {
+    margin-left: 46%;
+}
     .Skills h1 {
         font-size: 1.7rem;
     }
@@ -985,6 +991,9 @@
     .Skills h1{
         font-size: 1.5rem;
     }
+    .Skills .cl2 .javascr {
+    margin-left: 37%;
+}
     .projcts .cont .but a {
         margin-left: 20%;
     }
@@ -1041,7 +1050,7 @@
     font-size: 1.7rem;
 }
     .Skills h1 {
-        font-size: 1.3rem;
+        font-size: 1.1rem;
     }
     
     .Skills .cl1 i{

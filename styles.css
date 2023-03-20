@@ -876,6 +876,13 @@
     }
     .Skills .cl2 .javascr {
     margin-left: 40%;
+    }
+    .main-cont2 .me h1 {
+    font-size: 2.5rem;
+    }
+    .projcts .pro h1 {
+    font-size: 2.5rem;
+    text-align: center;
 }
     .projcts .netf img {
         width: 75%;
@@ -921,6 +928,14 @@
     }
     .projcts .cont3 .but a{
         margin-left: 24%;
+    }
+    .projcts .para {
+    font-size: 1.3rem;
+    margin-left: 7%;
+    }
+    .projcts .clk {
+    margin-left: 7%;
+    font-size: 1.1rem;
     }
     .social .so{
         font-size: 1.5rem;

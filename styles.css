@@ -581,7 +581,7 @@
         width: 100%;
     }
     .main-cont2 .desc{
-        margin-left: 7%;
+        margin-left: 4.5%;
     }
     .Skills .cl2 {
         margin-right: 20%;
@@ -946,6 +946,9 @@
     .social .so{
         font-size: 1.5rem;
     }
+    .main-cont2 .desc {
+        margin-left: 4%;
+    }
 }
 @media(max-width:450px){
     
@@ -958,7 +961,6 @@
     }
     .main-cont2 .desc h3 {
         width: 100%;
-        font-size: 2.17rem;
     }
     .Skills{
         height: 75vh;
@@ -1010,6 +1012,14 @@
     }
     .projcts .clk {
         font-size: 1rem;
+    }
+    .main-cont2 .desc {
+        margin-left: 4%;
+    }
+    .main-cont2 .desc h3 {
+        width: 60%;
+        font-size: 1.8rem;
+        margin-left: 22%;
     }
 }
 @media(max-width:400px){

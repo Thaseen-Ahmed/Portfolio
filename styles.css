@@ -1095,10 +1095,10 @@ a li{
 }
 @media(max-width:400px){
     .nav{
-        height: 5vh;
+        height: 7vh;
     }
     .nav .flx ul {
-    margin-top: 2.5%;
+    margin-top: 3.5%;
     font-size: 0.9rem;
 }
     .seenu-port .port .main-cont{

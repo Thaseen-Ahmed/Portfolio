@@ -114,17 +114,19 @@
 }
 
 .main-cont2 {
-    height: 70vh;
-    background-image: url(/images/abt.jpg);
-    /* background-color: #ECFCCB; */
+    height: 80vh;
+    background-image: url(/images/d-bg.webp);
+    background-size: cover;
+  
 
 }
 
 .main-cont2 .me {
-    background-color: rgb(116, 204, 15);
+    /* background-color: rgb(136, 196, 68); */
     text-align: center;
     margin-top: 3%;
     height: 7vh;
+    color:burlywood;
 }
 
 .main-cont2 .me h1 {
@@ -1003,6 +1005,9 @@
     .main-cont2 .me h1 {
         font-size: 2.3rem;
     }
+    .main-cont2 .desc{
+        font-size: 1.9rem;
+    }
     .projcts .clk {
         font-size: 1rem;
     }
@@ -1015,7 +1020,7 @@
         margin-left: 2%;
     }
     .main-cont2{
-        height: auto;
+        height: 60vh;
     }
     .mc .bg{
         width: 100%;
@@ -1032,11 +1037,36 @@
     .projcts .cont2 .but a {
         margin-left: 18%;
     }
+    .projcts .netf {
+        margin-left: 19%;
+    }
+    .projcts .form{
+        margin-left: 19%;
+    }
+    .projcts .amz{
+        margin-left: 19%;
+    }
+    .projcts .cont {
+        width: 60%;
+        margin-left: 21%;
+    }
+    .projcts .cont2 {
+        width: 60%;
+        margin-left: 21%;
+    }
+    .projcts .cont3 {
+        width: 60%;
+        margin-left: 21%;
+    }
+    .projcts .clk {
+        margin-left: 4%;
+        font-size: 0.87rem;
+    }
     .projcts .cont3 .but a {
         margin-left: 18%;
     }
     .main-cont2 .desc h3{
-        font-size: 1.5rem;
+        font-size: 1.8rem;
         padding-bottom: 5%;
 
     }
@@ -1045,6 +1075,15 @@
     }
     .contct p {
         font-size: 1.9rem;
+    }
+    .projcts .netf img {
+        width: 80%;
+    }
+    .projcts .form img {
+        width: 80%;
+    }
+    .projcts .amz img {
+        width: 80%;
     }
     
     .fa {

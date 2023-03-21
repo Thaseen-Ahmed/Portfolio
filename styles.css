@@ -1249,8 +1249,31 @@
     .main-cont2 .desc h3 {
         font-size: 1.3rem;
     }
+    .contct {
+        height: 60vh;
+    }
+    .contct .head {
+        font-size: .8rem;
+    }
+    .contct .head h1 {
+        margin-left: 15%;
+    }
     .contct .info {
         margin-left: 1%;
         font-size: 0.79rem;
+    }
+    .contct p {
+        font-size: 1.2rem;
+    } 
+    .social .so {
+        font-size: 1.2rem;
+    }
+    .social .but1 button {
+        background-color: darkslateblue;
+        height: 4vh;
+        font-size: .9rem;
+        width: 50%;
+        margin-left: 5%;
+        border: none;
     }
 }

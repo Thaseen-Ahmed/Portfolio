@@ -1220,3 +1220,37 @@
         font-size: 0.8rem;
     }
 }
+@media(max-width:250px){
+    .seenu-port .port .main-cont .img1 img {
+        height: 14vh;
+    }
+    .seenu-port .port .main-cont {
+        width: 19%;
+    }
+    .main-cont .abt {
+        font-size: 0.65rem;
+    }
+    .main-cont .info {
+        padding-left: 0%;
+    }
+    .main-cont .info {
+        margin-top: 128%;
+        font-size: 0.7rem;
+    }
+    .Skills .cl1 i {
+        font-size: 80px;
+    }
+    .Skills .cl2 i {
+        font-size: 80px;
+    }
+    .Skills h1 {
+        font-size: 0.8rem;
+    }
+    .main-cont2 .desc h3 {
+        font-size: 1.3rem;
+    }
+    .contct .info {
+        margin-left: 1%;
+        font-size: 0.79rem;
+    }
+}

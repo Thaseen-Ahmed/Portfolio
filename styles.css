@@ -1137,7 +1137,7 @@
     margin-top: 9%;
 }
 .main-cont2 .desc {
-    margin-top: 20%;
+    margin-top: 11%;
     margin-left: 4%;
 }
 .main-cont2 .desc h3 {
@@ -1191,4 +1191,12 @@
     margin-left: 1%;
     font-size: 0.95rem;
 }
+}
+@media(max-width:300px){
+    .main-cont2 .desc h3 {
+        font-size: 1.56rem;
+    }
+    .projcts .clk {
+        font-size: 0.8rem;
+    }
 }

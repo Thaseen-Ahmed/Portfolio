@@ -7,6 +7,7 @@
 
 body{
     scroll-behavior: smooth;
+    font-family: f;
 }
 body a{
     text-decoration: none;
@@ -604,7 +605,7 @@ a li{
 }
 @media(max-width:950px){
     .seenu-port .port .mc {
-        margin-left: 1%;
+     
     }
 }
 @media(max-width:900px){
@@ -691,7 +692,7 @@ a li{
 }
 @media(max-width:800px){
     .seenu-port .port .mc {
-        margin-left: 0.5%;
+ 
         /* padding: 5%; */
     }
     .nav .flx ul {

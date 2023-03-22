@@ -1201,8 +1201,8 @@ a li{
         padding-top: 2%;
     }
     .main-cont2 .desc h3 {
-        font-size: 1.6rem;
-        /* padding-bottom: 2%; */
+        font-size: 1.594rem;
+      
     }
 }
 
@@ -1297,7 +1297,7 @@ a li{
 }
 @media(max-width:300px){
     .main-cont2 .desc h3 {
-        font-size: 1.56rem;
+        font-size: 1.46rem;
     }
     .projcts .clk {
         font-size: 0.8rem;

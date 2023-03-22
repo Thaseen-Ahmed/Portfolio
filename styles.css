@@ -1016,9 +1016,9 @@ a li{
         font-size: 1.5rem;
     }
     .main-cont2 .desc {
-        margin-left: 4%;
+        margin-left: 18%;
+        font-size: 1.796rem;
     }
-}
 @media(max-width:450px){
     .nav .flx ul {
     margin-top: 4%;

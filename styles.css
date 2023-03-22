@@ -1247,7 +1247,13 @@ a li{
         font-size: 1.594rem;
       
     }
-   
+    .mc .bg .cont .p-img img {
+        height: 18vh;
+        border-radius: 116px;
+        width: 39%;
+        /* margin-left: 125%; */
+        transform: translate(87px, -48px);
+    }
 }
 
 @media(max-width:350px){

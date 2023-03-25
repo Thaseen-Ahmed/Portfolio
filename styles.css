@@ -1258,6 +1258,9 @@ a li{
     .Skills .cl2 .javascr {
         margin-left: 37%;
    }
+   .projcts{
+    height: 217vh;
+   }
     .projcts .cont .but a {
         margin-left: 20%;
     }
@@ -1273,9 +1276,18 @@ a li{
     .projcts .amz{
         margin-left: 19%;
     }
+    .projcts .cont .but {
+        padding-top: 10%;
+    }
+    .projcts .cont2 .but {
+        margin-top: 11%;
+    }
     .projcts .cont {
         width: 60%;
         margin-left: 21%;
+    }
+    .projcts .cont3 .but {
+        margin-top: 15%;
     }
     .projcts .cont2 {
         width: 60%;
@@ -1287,7 +1299,7 @@ a li{
     }
     .projcts .clk {
         margin-left: 4%;
-        font-size: 0.87rem;
+        font-size: 0.8rem;
     }
     .projcts .cont3 .but a {
         margin-left: 18%;
@@ -1363,7 +1375,7 @@ a li{
         font-size: 1.2rem;
     }
     .projcts .para {
-        font-size: 1.2rem;
+        font-size: 1.1rem;
         margin-left: 3%;
     }
 }

@@ -123,9 +123,10 @@ body a{
 }
 .nav .flx ul li{
    color:bisque;
-   
-    
-
+}
+.flx ul li:hover{
+    background-color: red;
+    padding: 5px 5px;
 }
 .mc .bg {
     background-image: url(/images/f-bg.jfif);
@@ -563,6 +564,10 @@ a li{
     }
 }
 @media(max-width:1100px){
+    .mc .bg .cont .p-img img {
+     
+        transform: translate(360px, -6px);
+    }
     .projcts .cont .but a {
         font-size: 1.3rem;
     }
@@ -574,6 +579,10 @@ a li{
     }
 }
 @media(max-width:1000px){
+    .mc .bg .cont .p-img img {
+        transform: translate(330px, -6px);
+        width: 42%;
+    }
     .mc .bg{
         background-position-x: -145px;
     }
@@ -634,6 +643,9 @@ a li{
     }
 }
 @media(max-width:900px){
+    .mc .bg .cont .p-img img {
+        transform: translate(300px, -6px);
+    }
     .projcts .para {
         margin-left: 20%;
     }
@@ -647,6 +659,9 @@ a li{
     
 }
 @media(max-width:850px){
+    .mc .bg .cont .p-img img {
+        transform: translate(278px, -6px);
+    }
     .main-cont2 .desc h3{
         width: 100%;
     }
@@ -742,6 +757,10 @@ a li{
         
 }
 @media(max-width:750px){
+    .mc .bg .cont .p-img img {
+        transform: translate(220px, -6px);
+        width: 55%;
+    }
     .Skills .cl1 .html{
         margin-left: 10%;
     }
@@ -798,6 +817,7 @@ a li{
 }
 }
 @media(max-width:700px){
+  
     .Skills{
         height: 95vh;
     }
@@ -852,7 +872,15 @@ a li{
     }
     
 }
+@media(max-width:650px){
+    .mc .bg .cont .p-img img {
+        transform: translate(187px, -6px);
+        width: 55%;
+        height: 20vh;
+    }
+}
 @media(max-width:600px){
+    
     .nav{
         height: 7vh;
     }
@@ -907,6 +935,16 @@ a li{
     }
 }
 @media(max-width:550px){
+   
+    .mc .bg .cont .p-img img {
+        transform: translate(146px, -6px);
+        width: 55%;
+        height: 20vh;
+    }
+    .mc .bg p {
+        font-weight: bolder;
+        font-size: smaller;
+    }
     .Skills .cl1 .html {
         margin-left: 11%;
     }
@@ -927,6 +965,10 @@ a li{
     }
 }
 @media(max-width:500px){
+    
+    .mc .bg p{
+        margin-top: 33%;
+    }
     .nav{
         height: 7vh;
     }
@@ -937,17 +979,17 @@ a li{
     .mc .bg{
         font-size: 4.5rem;
     }
-    .Skills .cl1 i {
-        font-size: 170px;
+    .Skills h1{
+        font-size: 1.5rem;
     }
     .Skills .cl2 i {
-        font-size: 170px;
+        font-size: 112px;
     }
     .Skills .cl1 .html {
-        margin-left: 8%;
+        margin-left: 17%;
     }
     .Skills .cl2 .boot {
-        margin-left: 7%;
+        margin-left: 36%;
     }
     .seenu-port .port .main-cont .img1 img{
         width: 95%;
@@ -969,7 +1011,7 @@ a li{
         font-size: 0.76rem;
     }
     .Skills {
-        height: 85vh;
+        height: 65vh;
     }
     .Skills .cl1 {
         margin-top: 10%;
@@ -1049,7 +1091,38 @@ a li{
         border-radius: 116px;
         width: 60%;
         /* margin-left: 125%; */
-        transform: translate(162px, -4px);
+        transform: translate(130px, -4px);
+    
+    }
+    .mc .bg p {
+        margin-top: 25%;
+        font-size: 3rem;
+        padding-left: 29%;
+    }
+    .mc .bg h4 {
+       
+        margin-left: 30%;
+    }
+    .main-cont2 .desc {
+        margin-left: 8%;
+        font-size: 1.4rem;
+    }
+    .Skills .cl1 i {
+        font-size: 112px;
+    }
+    .contct p {
+        width: 85%;
+        margin-left: 10%;
+        font-size: 1.8rem;
+    }
+    .social {
+        margin-left: -2%;
+    }
+    .contct .info {
+        font-size: 1.3rem;
+    }
+    .social .so {
+        font-size: 1.3rem;
     }
 }
 @media(max-width:450px){
@@ -1071,22 +1144,23 @@ a li{
         height: 75vh;
     }
     .Skills .cl1 i {
-        font-size: 140px;
+        font-size: 120px;
     }
     .Skills .cl2 i {
-        font-size: 140px;
+        font-size: 120px;
     }
+    
     .Skills .cl2 .javascr {
     margin-left: 46%;
 }
     .Skills h1 {
-        font-size: 1.7rem;
+        font-size: 1.5rem;
     }
     .Skills .cl1 .html {
-        margin-left: 12%;
+        margin-left: 15%;
     }
     .Skills .cl2 .boot {
-        margin-left: 12%;
+        margin-left: 30%;
         
     }
     
@@ -1122,9 +1196,9 @@ a li{
         margin-left: 4%;
     }
     .main-cont2 .desc h3 {
-        width: 60%;
-        font-size: 1.8rem;
-        margin-left: 22%;
+        width: 100%;
+        font-size: 1.3rem;
+        margin-left: 0%;
     }
     .main-cont2 {
         height: 69vh;
@@ -1136,8 +1210,29 @@ a li{
         /* margin-left: 125%; */
         transform: translate(112px, -36px);
     }
+    .mc .bg p {
+        margin-top: 12%;
+        font-size: 2.7rem;
+        padding-left: 10%;
+    }
+    .mc .bg h4 {
+        margin-left: 10%;
+        font-size: 2.1rem;
+    }
+    .mc .bg {
+        height: 74vh;
+    }
+
 }
 @media(max-width:400px){
+    .mc .bg{
+        height: 67vh;
+    }
+    .mc .bg p {
+        margin-top: 6%;
+        font-size: 2.7rem;
+        padding-left: 5%;
+    }
     .nav{
         height: 7vh;
     }
@@ -1201,7 +1296,8 @@ a li{
         font-size: 1.35rem;
     }
     .contct p {
-        font-size: 1.9rem;
+        font-size: 1.5rem;
+        margin-left: 5%;
     }
     .projcts .netf img {
         width: 80%;
@@ -1223,10 +1319,10 @@ a li{
         margin-top: 15%;
     }
     .mc .bg p{
-        font-size: 4rem;
+        font-size: 2.8rem;
     }
     .mc .bg h4 {
-    font-size: 1.5rem;
+    font-size: 1.1rem;
     }
    
     .main-cont2 .me h1 {
@@ -1244,7 +1340,7 @@ a li{
         padding-top: 2%;
     }
     .main-cont2 .desc h3 {
-        font-size: 1.594rem;
+        font-size: 1.3rem;
       
     }
     .mc .bg .cont .p-img img {
@@ -1254,37 +1350,59 @@ a li{
         /* margin-left: 125%; */
         transform: translate(93px, -48px);
     }
+    .main-cont2 .desc h3 {
+    width: 100%;
+    font-size: 1.3rem;
+    margin-left: 0%;
+    }
+    .contct {
+        height: 72vh;
+    }
+    .social .so {
+        font-size: 1.2rem;
+    }
+    .projcts .para {
+        font-size: 1.2rem;
+        margin-left: 3%;
+    }
 }
 
 @media(max-width:350px){
     .mc .bg .cont {
     width: 100%;
     font-size: 3.3rem;
-}
+    }
+
 .main-cont2 .me h1 {
     
     padding-top: 2%;
 
-}
-.Skills .head h1 {
+    }
+    .Skills .head h1 {
     padding-top: 3%;
-}
-.Skills .cl2 {
+    }
+    .Skills .cl2 {
     margin-right: 55%;
-}
-.projcts .cont .but a {
+    }
+    .projcts .cont .but a {
     margin-left: 13%;
-}
-.projcts .cont2 .but {
+    }
+    .projcts .cont2 .but {
     margin-top: 9%;
-}
-.main-cont2 .desc {
+    }
+    .main-cont2 .desc {
     margin-top: 3%;
-    margin-left: 4%;
-}
-.main-cont2 .desc h3 {
-    font-size: 1.7rem;
-}
+        margin-left: 4%;
+    }
+    .main-cont2 .desc h3 {
+    width: 100%;
+    margin-left: 0%;
+    font-size: 1.2rem;
+    }
+    .Skills .cl2 .boot {
+        margin-left: 18%;
+    }
+
     .Skills h1 {
         font-size: 1.1rem;
     }
@@ -1321,7 +1439,7 @@ a li{
         margin-left: 13%;
     }
 .contct p {
-    font-size: 1.7rem;
+    font-size: 1.4rem;
 }
 .Skills .cl1 i {
     font-size: 100px;
@@ -1330,19 +1448,22 @@ a li{
     font-size: 100px;
 }
 .contct .info{
-    margin-left: 1%;
-    font-size: 0.95rem;
+    margin-left: 5%;
+    font-size: 1rem;
 }
-.main-cont2 .desc h3 {
-    font-size: 1.5rem;
-}
-.main-cont2 .desc h3 {
-    width: 70%;
-  
-    margin-left: 19%;
-}
+
 .contct .head h1 {
     margin-left: 15%;
+}
+.projcts .clk {
+    font-size: 0.8rem;
+}
+.projcts .para {
+    font-size: 1rem;
+    margin-left: 2%;
+}
+.projcts{
+    height: 205vh;
 }
 }
 @media(max-width:300px){

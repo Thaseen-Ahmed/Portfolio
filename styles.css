@@ -165,13 +165,13 @@ a li{
         border-radius: 116px;
         width: 37%;
         /* margin-left: 125%; */
-        transform: translate(469px, -6px);
+        transform: translate(500px, -6px);
         
     
 }
 
 .main-cont2 {
-    height: 80vh;
+    height: 83vh;
     background-image: url(/images/d-bg.webp);
     background-size: cover;
     background-color:rgb(3, 15, 31);
@@ -194,15 +194,16 @@ a li{
 }
 
 .main-cont2 .desc {
-    font-size: xx-large;
-    margin-left: 20%;
-    
+    font-size: 1.33rem;
+    margin-left: 5%;
+    text-align: center;
+
     color: bisque;
-    margin-top: 7%;
+    margin-top: 5%;
 }
 
 .main-cont2 .desc h3 {
-    width: 70%;
+    width: 95%;
 }
 
 .Skills {
@@ -754,6 +755,16 @@ a li{
     .contct .head h1 {
         margin-left: 32%;
     }
+    .main-cont2 .desc {
+        font-size: 1.18rem;
+    }
+    .mc .bg p {
+        font-weight: bolder;
+        font-size: 6rem;
+    }
+    .main-cont2 .desc {
+        margin-left: 1%;
+    }
         
 }
 @media(max-width:750px){
@@ -933,6 +944,12 @@ a li{
     .contct{
         height: 90vh;
     }
+    .main-cont2 .desc {
+        font-size: 1.1rem;
+    }
+    
+    
+    
 }
 @media(max-width:550px){
    
@@ -944,6 +961,10 @@ a li{
     .mc .bg p {
         font-weight: bolder;
         font-size: smaller;
+    }
+    .main-cont2 .desc {
+        font-size: 0.98rem;
+         margin-left: 9%;
     }
     .Skills .cl1 .html {
         margin-left: 11%;
@@ -961,7 +982,7 @@ a li{
         margin-left: 4%;
     }
     .main-cont2 .desc h3 {
-        width: 85%;
+        width: 95%;
     }
 }
 @media(max-width:500px){
@@ -1082,10 +1103,7 @@ a li{
     .social .so{
         font-size: 1.5rem;
     }
-    .main-cont2 .desc {
-        margin-left: 18%;
-        font-size: 1.796rem;
-    }
+ 
     .mc .bg .cont .p-img img {
         height: 18vh;
         border-radius: 116px;
@@ -1105,7 +1123,7 @@ a li{
     }
     .main-cont2 .desc {
         margin-left: 8%;
-        font-size: 1.4rem;
+        font-size: 0.89rem
     }
     .Skills .cl1 i {
         font-size: 112px;
@@ -1197,11 +1215,11 @@ a li{
     }
     .main-cont2 .desc h3 {
         width: 100%;
-        font-size: 1.3rem;
+        font-size: 1rem;
         margin-left: 0%;
     }
     .main-cont2 {
-        height: 69vh;
+        height: 72vh;
     }
     .mc .bg .cont .p-img img {
         height: 18vh;
@@ -1247,7 +1265,7 @@ a li{
         margin-left: 3%;
     }
     .main-cont2{
-        height: 60vh;
+        height: 70vh;
     }
     .mc .bg{
         width: 100%;
@@ -1268,7 +1286,8 @@ a li{
     height: 217vh;
    }
     .projcts .cont .but a {
-        margin-left: 20%;
+        margin-left: 26%;
+        font-size: 0.7rem;
     }
     .projcts .cont2 .but a {
         margin-left: 18%;
@@ -1283,7 +1302,7 @@ a li{
         margin-left: 19%;
     }
     .projcts .cont .but {
-        padding-top: 10%;
+            padding-top: 0%;
     }
     .projcts .cont2 .but {
         margin-top: 11%;
@@ -1326,7 +1345,16 @@ a li{
     .projcts .amz img {
         width: 80%;
     }
-    
+    .projcts p {
+        font-size: medium;
+    }
+    .projcts .cont h3 {
+        font-size: 0.9rem;
+        margin-left: 3%;
+    }
+    .projcts .cont{
+        height: 19vh;
+    }
     .fa {
         font-size: 1.9rem;
     }
@@ -1352,16 +1380,13 @@ a li{
     padding-top: 3%;    
     }
     .main-cont2 .desc {
-        margin-top: 5%;
+        margin-top: 6%;
     }
     .projcts .pro h1 {
         font-size: 2.1rem;
         padding-top: 2%;
     }
-    .main-cont2 .desc h3 {
-        font-size: 1.3rem;
-      
-    }
+    
     .mc .bg .cont .p-img img {
         height: 18vh;
         border-radius: 116px;
@@ -1371,7 +1396,7 @@ a li{
     }
     .main-cont2 .desc h3 {
     width: 100%;
-    font-size: 1.3rem;
+    font-size: 0.85rem;
     margin-left: 0%;
     }
     .contct {
@@ -1413,13 +1438,16 @@ a li{
     margin-top: 9%;
     }
     .main-cont2 .desc {
-    margin-top: 3%;
-        margin-left: 4%;
+    margin-top: 5%;
+        margin-left: 2%;
     }
     .main-cont2 .desc h3 {
     width: 100%;
     margin-left: 0%;
-    font-size: 1.2rem;
+    font-size: 0.88rem;
+    }
+    .main-cont2{
+        height: 76vh;
     }
     .Skills .cl2 .boot {
         margin-left: 18%;

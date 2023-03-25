@@ -12,7 +12,14 @@ body{
 body a{
     text-decoration: none;
 }
-
+body img{
+    transition: 0.5s;
+}
+body img:hover{
+    padding: 2px 2px;
+    /* transition: 0.5ms; */
+    transform: scale(1.05);
+}
 .seenu-port .port .mc {
     /* margin-top: 1.5%; */
     margin-left: 0%;

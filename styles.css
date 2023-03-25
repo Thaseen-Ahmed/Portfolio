@@ -14,11 +14,13 @@ body a{
 }
 body img{
     transition: 0.5s;
+    box-shadow: rgb(61, 63, 68);
 }
 body img:hover{
     padding: 2px 2px;
     /* transition: 0.5ms; */
-    transform: scale(1.05);
+    transform: scale(1.07);
+
 }
 .seenu-port .port .mc {
     /* margin-top: 1.5%; */

@@ -1258,6 +1258,12 @@ a li{
     .Skills .cl2 .javascr {
         margin-left: 37%;
    }
+   .Skills .cl1 i {
+    font-size: 105px;
+    }
+    .Skills .cl2 i {
+        font-size: 105px;
+    }
    .projcts{
     height: 217vh;
    }

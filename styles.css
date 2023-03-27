@@ -1261,7 +1261,7 @@ a li{
         padding-left: 5%;
     }
     .nav{
-        height: 7vh;
+        height: 6vh;
     }
     .nav .flx ul {
     margin-top: 3.5%;
@@ -1272,6 +1272,17 @@ a li{
     }
     .main-cont2 .desc {
         margin-left: 3%;
+    }
+    .projcts .cont2{
+        height: 19vh;
+    }
+    .projcts .cont2 h3 {
+        font-size: 0.8rem;
+        margin-left: 1%;
+    }
+    .projcts .cont2 p{
+        margin-left: 2%;
+       
     }
     .main-cont2{
         height: 70vh;
@@ -1292,16 +1303,14 @@ a li{
         font-size: 105px;
     }
    .projcts{
-    height: 217vh;
+    height: 182vh;
    }
     .projcts .cont .but a {
         margin-left: 26%;
-        font-size: 0.6rem;
+        font-size: 0.7rem;
         padding-bottom: 4%;
     }
-    .projcts .cont2 .but a {
-        margin-left: 18%;
-    }
+    
     .projcts .netf {
         margin-left: 19%;
     }
@@ -1312,18 +1321,25 @@ a li{
         margin-left: 19%;
     }
     .projcts .cont .but {
-            padding-top: 0%;
+        padding-top: 0%;
     }
+    
     .projcts .cont2 .but {
-        margin-top: 11%;
+        margin-top: 6%;
+        padding-top: 0%;
+    }
+    .projcts .cont2 .but a {
+        margin-left: 26%;
+        font-size: 0.7rem;
     }
     .projcts .cont {
         width: 60%;
         margin-left: 21%;
     }
     .projcts .cont3 .but {
-        margin-top: 15%;
+        margin-top: 6%;
     }
+
     .projcts .cont2 {
         width: 60%;
         margin-left: 21%;
@@ -1331,13 +1347,23 @@ a li{
     .projcts .cont3 {
         width: 60%;
         margin-left: 21%;
+        height: 19vh;
+    }
+    .projcts .cont3 h3 {
+        font-size: 0.7rem;
+        margin-left: 2%;
+    }
+    .projcts .cont3 p {
+        margin-left: 2%;
+        font-size: 1rem;
     }
     .projcts .clk {
         margin-left: 4%;
         font-size: 0.8rem;
     }
     .projcts .cont3 .but a {
-        margin-left: 18%;
+        margin-left: 25%;
+        font-size: 0.8rem;
     }
     .Skills h1 {
         font-size: 1.35rem;
@@ -1363,7 +1389,7 @@ a li{
         margin-left: 3%;
     }
     .projcts .cont{
-        height: 19vh;
+        height: 20vh;
     }
     .fa {
         font-size: 1.9rem;
@@ -1372,7 +1398,7 @@ a li{
         font-size: 1rem;
     }
     .mc .bg .cont{
-        margin-top: 15%;
+        margin-top: 33%;
     }
     .mc .bg p{
         font-size: 2.8rem;
@@ -1398,11 +1424,10 @@ a li{
     }
     
     .mc .bg .cont .p-img img {
-        height: 18vh;
+        height: 14vh;
         border-radius: 116px;
-        width: 39%;
-        /* margin-left: 125%; */
-        transform: translate(93px, -48px);
+        width: 31%;
+        transform: translate(106px, -48px);
     }
     .main-cont2 .desc h3 {
     width: 100%;

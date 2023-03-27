@@ -7,7 +7,8 @@
 
 body{
     scroll-behavior: smooth;
-    font-family: f;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+
 }
 body a{
     text-decoration: none;
@@ -134,7 +135,7 @@ body img:hover{
    color:bisque;
 }
 .flx ul li:hover{
-    background-color: red;
+    background-color: rgb(15, 23, 134);
     padding: 5px 5px;
 }
 .mc .bg {
@@ -170,17 +171,18 @@ a li{
     
 }
 .mc .bg .cont .p-img img{
-        height: 27vh;
+  
+        height: 23vh;
         border-radius: 116px;
-        width: 37%;
+        width: 27%;
         /* margin-left: 125%; */
-        transform: translate(500px, -6px);
-        
+        transform: translate(590px, -6px);
+    
     
 }
 
 .main-cont2 {
-    height: 83vh;
+    height: 73vh;
     background-image: url(/images/d-bg.webp);
     background-size: cover;
     background-color:rgb(3, 15, 31);
@@ -216,17 +218,18 @@ a li{
 }
 
 .Skills {
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     height: 110vh;
     background-color:wheat;
 }
 
 .Skills h1 {
     font-size: 3rem;
-    color: black;
+    color: rgb(54, 10, 10);
 }
 
 .Skills .head {
-    background-color: #7C2D12;
+    background-color: #d8c3bc;
     text-align: center;
     height: 7vh;
 }
@@ -541,6 +544,10 @@ a li{
 
 
 @media(max-width:1350px){
+    .mc .bg .cont .p-img img {
+      
+        transform: translate(492px, -6px);
+    }
     .Skills .cl2 {
         margin-right: 8%;
     }
@@ -591,7 +598,7 @@ a li{
 @media(max-width:1000px){
     .mc .bg .cont .p-img img {
         transform: translate(330px, -6px);
-        width: 42%;
+        width: 36%;
     }
     .mc .bg{
         background-position-x: -145px;
@@ -779,8 +786,13 @@ a li{
 @media(max-width:750px){
     .mc .bg .cont .p-img img {
         transform: translate(220px, -6px);
-        width: 55%;
+        width: 45%;
+        height: 21vh
     }
+    .mc .bg p {
+        font-weight: bolder;
+        font-size: 5rem;
+    }          
     .Skills .cl1 .html{
         margin-left: 10%;
     }
@@ -1121,14 +1133,17 @@ a li{
         transform: translate(130px, -4px);
     
     }
+    .mc .bg{
+        height: 83vh;
+    }
     .mc .bg p {
         margin-top: 25%;
         font-size: 3rem;
-        padding-left: 29%;
+        padding-left: 15%;
     }
     .mc .bg h4 {
        
-        margin-left: 30%;
+        margin-left: 15%;
     }
     .main-cont2 .desc {
         margin-left: 8%;
@@ -1548,7 +1563,7 @@ a li{
     margin-left: 2%;
 }
 .projcts{
-    height: 205vh;
+    height: 180vh;
 }
 }
 @media(max-width:300px){
